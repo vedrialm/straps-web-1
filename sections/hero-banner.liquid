@@ -1,1 +1,46 @@
-<!-- Hero Banner Section -->
+<section class="hero-banner">
+  <div class="hero-banner__inner">
+    <div class="hero-banner__content">
+      <h1 class="hero-banner__title">Welcome to {{ shop.name }}</h1>
+      <p class="hero-banner__subtitle">Discover amazing products</p>
+      <a href="/collections" class="hero-banner__cta">Shop Now</a>
+    </div>
+  </div>
+</section>
+
+<style>
+  .hero-banner {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 4rem 0;
+    text-align: center;
+  }
+  .hero-banner__inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  .hero-banner__title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  .hero-banner__subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    opacity: 0.9;
+  }
+  .hero-banner__cta {
+    display: inline-block;
+    background: white;
+    color: #667eea;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: transform 0.2s;
+  }
+  .hero-banner__cta:hover {
+    transform: translateY(-2px);
+  }
+</style>

@@ -1,1 +1,46 @@
-<!-- Footer Section -->
+<footer class="footer">
+  <div class="footer__inner">
+    <div class="footer__content">
+      <p>&copy; {{ 'now' | date: '%Y' }} {{ shop.name }}. All rights reserved.</p>
+      <nav class="footer__nav">
+        <ul>
+          <li><a href="/pages/privacy-policy">Privacy Policy</a></li>
+          <li><a href="/pages/terms-of-service">Terms of Service</a></li>
+          <li><a href="/pages/contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</footer>
+
+<style>
+  .footer {
+    background: #f8f8f8;
+    border-top: 1px solid #e5e5e5;
+    padding: 2rem 0;
+    margin-top: auto;
+  }
+  .footer__inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  .footer__content {
+    text-align: center;
+  }
+  .footer__nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 1rem;
+  }
+  .footer__nav a {
+    text-decoration: none;
+    color: #666;
+    font-size: 0.9rem;
+  }
+  .footer__nav a:hover {
+    color: #000;
+  }
+</style>

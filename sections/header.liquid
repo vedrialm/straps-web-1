@@ -1,1 +1,45 @@
-<!-- Header Section -->
+<header class="header">
+  <div class="header__inner">
+    <h1 class="header__logo">
+      <a href="/">{{ shop.name }}</a>
+    </h1>
+    <nav class="header__nav">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/collections">Collections</a></li>
+        <li><a href="/pages/contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<style>
+  .header {
+    background: #fff;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 1rem 0;
+  }
+  .header__inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header__logo a {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+  }
+  .header__nav ul {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+  }
+  .header__nav a {
+    text-decoration: none;
+    color: #333;
+  }
+</style>
