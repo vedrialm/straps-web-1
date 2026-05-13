@@ -1,0 +1,9 @@
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection",
+      "settings": {}
+    }
+  },
+  "order": ["banner"]
+}

@@ -1,13 +1,33 @@
 {
   "sections": {
-    "hero": {
+    "hero_banner": {
       "type": "hero-banner",
       "settings": {}
     },
-    "featured-products": {
-      "type": "featured-products",
+    "features_bar": {
+      "type": "features-bar",
+      "settings": {}
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {}
+    },
+    "color_story": {
+      "type": "color-story",
+      "settings": {}
+    },
+    "compatibility": {
+      "type": "compatibility",
+      "settings": {}
+    },
+    "bundle_cta": {
+      "type": "bundle-cta",
+      "settings": {}
+    },
+    "testimonials": {
+      "type": "testimonials",
       "settings": {}
     }
   },
-  "order": ["hero", "featured-products"]
+  "order": ["hero_banner", "features_bar", "featured_collection", "color_story", "compatibility", "bundle_cta", "testimonials"]
 }
